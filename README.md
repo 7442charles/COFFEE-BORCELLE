@@ -47,3 +47,6 @@ To explore the COFFEE BORCELLE website, follow these simple steps:
 
 We welcome contributions to enhance the COFFEE BORCELLE experience! If you have ideas for improvement or would like to report an issue, please feel free to submit a pull request or open an issue on GitHub.
 
+## PS
+
+Just because git pages addeds the CNAME file by default, dont do it yourself, i have suffered trying to figure out why my site won't show on the domain. 🤣🤣🤣
