@@ -53,22 +53,22 @@
 </head>
 <body>
     <!-- Hero Section -->
-    <section class="relative h-[70vh] bg-[#2F1F14] flex items-center justify-center ">
-          
-        <!-- Logo in the top-left -->
-        <img src="Assets/images/logo.png" alt="Logo" class="absolute top-10 left-10 h-40">
-
-        <!-- Text Content -->
-        <div class="text-left text-white max-w-lg">
-            <h1 class="text-7xl pompiere">Coffee Makes Mood</h1>
-            <h2 class="text-3xl tangerine mt-2">
-                "Indulge in Every Sip: Experience the Richness of Coffee!"
-            </h2>
-        </div>
-
-        <!-- Right Image Covering Section Height -->
-        <img src="Assets/images/Coffee_left.png" alt="Coffee" 
-            class="absolute right-0 top-0 h-full object-cover">
+    <section class="relative h-[70vh] bg-[#2F1F14] flex items-center justify-center">
+      <img src="Assets/images/logo.png" alt="Logo" 
+           class="absolute top-5 left-5 h-32 
+                  md:top-10 md:left-20 
+                  sm:top-0 sm:left-2 sm:h-32">
+  
+      <!-- Text Content -->
+      <div class="text-left text-white max-w-lg">
+          <h1 class="text-7xl pompiere">Coffee Makes Mood</h1>
+          <h2 class="text-3xl tangerine mt-2">
+              "Indulge in Every Sip: Experience the Richness of Coffee!"
+          </h2>
+      </div>
+  
+      <img src="Assets/images/Coffee_left.png" alt="Coffee" 
+           class="absolute right-0 top-0 h-full object-cover">
     </section>
 
     <!-- About Us Section -->
@@ -101,10 +101,11 @@
       <div class="container mx-auto text-center">
 
           <!-- Reviews Heading with Image -->
-          <div class="flex flex-col md:flex-row items-center justify-center gap-2 mb-4">
-              <h1 class="text-4xl font-bold text-white">REVIEWS</h1>
-              <img src="Assets/images/small_coffee.png" alt="Review Icon" class="h-12 w-12">
+          <div class="flex flex-row items-center justify-center gap-2 mb-4">
+            <h1 class="text-4xl font-bold text-white">REVIEWS</h1>
+            <img src="Assets/images/small_coffee.png" alt="Review Icon" class="h-12 w-12">
           </div>
+
 
           <!-- Subheading -->
           <h2 class="text-2xl text-white mb-10">What other people are saying!</h2>
@@ -161,31 +162,32 @@
 
           <!-- Center Column - Sitemap -->
           <div class="flex-1 text-left md:text-center">
-            <h2 class="text-3xl font-[700] mb-2">Sitemap</h2>
-            <p class="mb-1 text-xl">All Pages</p>
-            <ul class="space-y-1 font-inter text-xl">
-                <li><a href="#" class="hover:underline">- Home</a></li>
-                <li><a href="#" class="hover:underline">- Pricing</a></li>
-                <li><a href="#" class="hover:underline">- Coffee</a></li>
-            </ul>
-        </div>
-        
-          <!-- Right Column - Company Info -->
-          <div class="flex-1">
-              <img src="Assets/images/footer_logo.png" alt="Company Logo" class="w-60 h-60">
-              <p class="flex items-center gap-2">
-                  <img src="Assets/images/phone.svg" alt="Phone Number" srcset="" class="w-6 h-6 text-3xl">
-                  +2547 5941 8593
-              </p>
-              <p class="flex items-center gap-2 mt-1 font-inter">
-                  <img src="Assets/images/email.svg" alt="Email" srcset="" class="w-6 h-6">
-                  info@ckn.co.ke
-              </p>
+              <h2 class="text-3xl font-[700] mb-2">Sitemap</h2>
+              <p class="mb-1 text-xl">All Pages</p>
+              <ul class="space-y-1 font-inter text-xl">
+                  <li><a href="#" class="hover:underline">- Home</a></li>
+                  <li><a href="#" class="hover:underline">- Pricing</a></li>
+                  <li><a href="#" class="hover:underline">- Coffee</a></li>
+              </ul>
           </div>
 
+          <!-- Right Column - Company Info -->
+          <div class="flex-1 text-left">
+            <h2 class="text-3xl font-[700] mb-2">Reach Us</h2>
+            <p class="flex items-center gap-2">
+                <img src="Assets/images/phone.svg" alt="Phone Number" class="w-6 h-6">
+                +2547 5941 8593
+            </p>
+            <p class="flex items-center gap-2 mt-1 font-inter">
+                <img src="Assets/images/email.svg" alt="Email" class="w-6 h-6">
+                info@ckn.co.ke
+            </p>
+
+            <!-- Left-aligned Image Below Contact Details -->
+            <img src="Assets/images/footer_logo.png" alt="Company Logo" class="w-40 h-40 mt-4">
+          </div>
       </div>
     </footer>
-
 
     <!-- Footer Credits -->
     <div class="bg-[#DBBCA1] text-center py-3">

@@ -2,9 +2,15 @@
 
 ## Introduction
 
+### I generated this Docs With AI 😂😂
+
 Hello! Welcome to COFFEE BORCELLE, your ultimate destination for a premium coffee experience. I'm excited to share with you the journey of discovering exquisite coffee blends and accessories. You can find me on Twitter as [@Son_Of_Anton](https://twitter.com/bazuking2) and on GitHub as [@7442charles](https://github.com/7442charles).
 
 Stay tuned for updates on the world of coffee!
+
+## Figma Design
+
+[Figme Design](https://www.figma.com/design/FmkDlBl2DAbJFiG94PpdFk/COFFEE?node-id=0-1&p=f&t=PboF26N6vGoq2lTR-0)
 
 ## About the Website
 
